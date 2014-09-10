@@ -1,4 +1,16 @@
 body {
-  font: 18px/24px helvetica, sans-serif;
-  margin: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font: bold 24px helvetica, sans-serif;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	margin: 0;
 }
