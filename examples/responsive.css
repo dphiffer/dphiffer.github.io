@@ -7,6 +7,11 @@ h1 {
 	margin: 2em 0 1em 0;
 }
 
+.floated {
+	width: 100%;
+	height: auto;
+}
+
 #content {
 	width: 100%;
 	padding: 20px;
