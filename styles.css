@@ -4,7 +4,7 @@ body {
   background-image: url(pattern-9awh.png);
 }
 
-.container {
+#container {
   width: 500px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 30px;
@@ -44,8 +44,38 @@ ul {
 }
 
 ul li {
+	font-size: 0.85em;
   list-style: none;
   margin-top: 15px;
   border-top: 2px solid #ccc;
   padding-top: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+@media (min-width: 775px) {
+	
+	#container {
+		width: 775px;
+	}
+	
+	main {
+		float: left;
+		width: 500px;
+	}
+	
+	nav {
+		float: right;
+		width: 250px;
+		margin-left: 25px;
+	}
+	
+	ul li:first-child {
+		margin-top: 40px;
+		border-top: none;
+		padding-top: 0;
+	}
+	
 }
